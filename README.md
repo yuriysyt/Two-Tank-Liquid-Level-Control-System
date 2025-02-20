@@ -54,9 +54,7 @@ To explore more aggressive control, PID parameters were adjusted to:
 
 The aggressive parameter set (Kp = 3, Ki = 0.8, Kd = 0.4) revealed interesting trade-offs. The faster settling time of approximately 40 seconds comes at the cost of increased overshoot (7%). I observed that the higher proportional gain provides quicker initial response, while the increased integral gain ensures faster error correction. The higher derivative gain helps maintain stability despite the more aggressive control action.
 
-![Additional System Response](media/image8.png)
-
-![Bode Plot](media/image9.png)
+![Bode plot](media/image8.png)
 
 *Figure 7: Bode Plot*
 
